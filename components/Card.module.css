@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1.5rem;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+  }
+
+  .card h2 {
+    margin: 5px 25px;
+  }
+
+  .card img {
+    width: 30vh;
+  }
+
+  @media only screen and (max-width: 720px) {
+    .card img {
+        width: 15vh;
+    }
+
+    .card h2 {
+        font-size: 1em;
+    }
+  } 
